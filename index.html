@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="get">
+        <label for="from-city">Where from?</label>
+        <input type="text" name="from-city" id="from">
+        <label for="to-city">Where to?</label>
+        <input type="text" name="to-city" id="to">
+        <label for="start">Arrival Date:</label>
+        <input type="date" id="start" name="trip-start" value="2022-04-08" min="2022-04-08" max="2022-09-30">
+        <label for="start">Departure Date:</label>
+        <input type="date" id="end" name="trip-end" value="2022-04-08" min="2022-04-08" max="2022-09-30">
+    </form>
+</body>
+</html>
